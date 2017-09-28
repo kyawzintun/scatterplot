@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-intro h2{
+  margin-bottom: 0px;
+  font-size: 20px;
+} 
+.App-intro p {
+  font-weight: normal;
+  font-size: 16px;
+  padding:0px;
+  margin:0px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Graph {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.line {
+  fill: none;
+  stroke-width: 2px;
+}
+
+.dot:hover {
+  cursor: pointer;
+}
+
+.label { 
+  fill: #000; 
+}
+
+.point-label {
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  height: 80px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+}
+
+.info {
+  margin-top: 5px;
+}
+
+.player-info p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.doping-status {
+  margin-top: 5px;
+}
