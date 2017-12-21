@@ -9,4 +9,4 @@ $ npm install
 $ npm start
 ```
 
-*[Demo](https://cukyawzintun.github.io/scatterplot/)*
+*[Demo](https://kyawzintun.github.io/scatterplot/)*
